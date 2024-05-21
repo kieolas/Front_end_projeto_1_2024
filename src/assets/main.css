@@ -1,0 +1,65 @@
+:root {
+  background-color: #f6ce4e;
+}
+#links {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  height: 100%;
+  padding-right: 12px;
+}
+button, input{background-color: white; border-radius: 15px; border-color: #121212; border-width: 2px;}
+ul{list-style-type: none;}
+body {
+  margin: 0;
+}
+nav {
+
+
+  background-color: #121212;
+  gap: 10px;
+  height: 7vh;
+}
+img{border-radius: 15px;}
+a {
+  color: #f6ce4e;
+  align-self: center;
+  /* Changed from align-content to align-self */
+  text-decoration: none;
+  /* Added for better link styling */
+
+}
+/* @import './base.css';
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
